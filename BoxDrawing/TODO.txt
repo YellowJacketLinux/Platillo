@@ -1,0 +1,3 @@
+All but three glyphs are drawn.
+
+Cleanup for upload to git it still taking place, about 25% done.
