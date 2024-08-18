@@ -24,7 +24,7 @@ Eight-Dot Braille adds Dot position Seven to the bottom of the left row (under
 position Three) and Dot position Eight to the bottom of the right row (under
 position Six).
 
-The Braille Dot Patterns are illustrated in [Figure One](#figure-one)
+The Braille Dot Patterns are illustrated in [Figure One](#figure-one).
 
 For Braille Pattern glyphs, this font uses large octagons to represent a dot
 that is filled in and a small square to indicate a dot that is not filled in.
@@ -62,7 +62,7 @@ Figure One
 ----------
 
 A Visual Example of Braille Patterns.
-[Skip to Text Description](#figure-one-text-description)
+[Skip to Text Description](#figure-one-text-description).
 
     ┌───┐                 ┌───┐ ┌───┐ ┌───┐ ┌───┐ ┌───┐ ┌───┐
     │1 4│                 │   │ │1  │ │  4│ │1 4│ │1  │ │1 4│
