@@ -1,0 +1,79 @@
+<svg version="1.1"
+     width="900" height="900"
+     viewBox="0 0 1200 1200"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+  <!-- do not change below -->
+  <path id="emsquare" d="M0,0 l600,0 l0,1000 l-600,0 l0,-1000"
+        stroke="none" fill="gray" fill-opacity="15%"/>
+  <path id="filled" d="M0,0 m-31,-80
+                       l62,0 l49,49
+                         l0,62 l-49,49
+                         l-62,0 l-49,-49
+                         l0,-62 l49,-49z
+                       " fill="none" stroke="red" stroke-width="2" />
+   <path id="unfilled" d="M0,0 m-15,-15
+                          l30,0 l0,30 l-30,0 l0,-30z
+                       " fill="none" stroke="red" stroke-width="2" />
+   "
+</defs>
+ 
+<path d="M600,0 l0,1200" stroke="red" />
+
+<path d="M400,0 l0,1200" stroke="purple" stroke-width="4" />
+<path d="M500,0 l0,1200" stroke="purple" stroke-width="2" />
+<path d="M600,0 l0,1200" stroke="purple" stroke-width="2" />
+<path d="M600,0 l0,1200" stroke="purple" stroke-width="2" />
+<path d="M700,0 l0,1200" stroke="purple" stroke-width="2" />
+<path d="M800,0 l0,1200" stroke="purple" stroke-width="4" />
+
+<path d="M0,200 l1200,0" stroke="red" stroke-width="4" />
+<path d="M0,300 l1200,0" stroke="green" />
+<path d="M0,400 l1200,0" stroke="green" />
+<path d="M0,500 l1200,0" stroke="green" />
+<path d="M0,600 l1200,0" stroke="green" />
+<path d="M0,700 l1200,0" stroke="green" />
+<path d="M0,800 l1200,0" stroke="green" stroke-width="4" />
+<path d="M0,900 l1200,0" stroke="green" />
+<path d="M0,1000 l1200,0" stroke="red" stroke-width="4" />
+
+<text x="385" y="225" fill="blue">1</text>
+<text x="385" y="425" fill="blue">2</text>
+<text x="385" y="625" fill="blue">3</text>
+<text x="385" y="825" fill="blue">7</text>
+<text x="807" y="225" fill="blue">4</text>
+<text x="807" y="425" fill="blue">5</text>
+<text x="807" y="625" fill="blue">6</text>
+<text x="807" y="825" fill="blue">8</text>
+
+
+<!-- The em square, glyph SVG coordinates 200,0 -->
+<use href="#emsquare" x="300" y="100" />
+
+<use href="#filled" x="500" y="300" />
+<use href="#filled" x="500" y="500" />
+<use href="#filled" x="500" y="700" />
+<use href="#filled" x="500" y="900" />
+<use href="#filled" x="700" y="300" />
+<use href="#filled" x="700" y="500" />
+<use href="#filled" x="700" y="700" />
+<use href="#filled" x="700" y="900" />
+
+<use href="#unfilled" x="500" y="300" />
+<use href="#unfilled" x="500" y="500" />
+<use href="#unfilled" x="500" y="700" />
+<use href="#unfilled" x="500" y="900" />
+<use href="#unfilled" x="700" y="300" />
+<use href="#unfilled" x="700" y="500" />
+<use href="#unfilled" x="700" y="700" />
+<use href="#unfilled" x="700" y="900" />
+
+<!-- link to SVG being worked on -->
+<!-- image xlink:href="28NN-BRAILLE_PATTERN_DOTS-nn.svg" width="600"
+       x="300" y="100" / -->
+
+<!-- link to alt SVG being worked on -->
+<!-- image xlink:href="28NN-BRAILLE_PATTERN_DOTS-nn-alt.svg" width="600"
+       x="300" y="100" / -->
+</svg>
