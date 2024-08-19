@@ -12,7 +12,7 @@ for a in 0 1 2 3 4 5 6 7; do
   for b in 0 1 2 3 4 5 6 7 8 9 A B C D E F; do
     if [ -f "25${a}${b}.svg" ]; then
       echo "Converting glyph U+25${a}${b} to PNG"
-      inkscape -z -w 544 -h 800 "25${a}${b}.svg" "25${a}${b}.png"
+      inkscape -z -w 544 -h 800 "25${a}${b}.svg" -e "25${a}${b}.png"
       convert "25${a}${b}.png" -background AliceBlue -alpha remove -alpha off \
         "../PNG/25${a}${b}.png"
       rm -f "25${a}${b}.png"
@@ -24,7 +24,7 @@ for a in 0 1 2 3 4 5 6 7; do
   for b in 0 1 2 3 4 5 6 7 8 9 A B C D E F; do
     if [ -f "25${a}${b}-alt.svg" ]; then
       echo "Converting alt glyph U+25${a}${b} to PNG"
-      inkscape -z -w 800 -h 800 "25${a}${b}-alt.svg" "25${a}${b}-alt.png"
+      inkscape -z -w 800 -h 800 "25${a}${b}-alt.svg" -e "25${a}${b}-alt.png"
       convert "25${a}${b}-alt.png" -background AliceBlue -alpha remove -alpha off \
         "../PNG/25${a}${b}-alt.png"
       rm -f "25${a}${b}-alt.png"
