@@ -13,6 +13,11 @@ for a in 0 1 2 3 4 5 6 7; do
     echo "Adjusting timestamp on glyph U+25${a}${b}"
     [ -f "25${a}${b}.svg" ] && touch "25${a}${b}.svg"
     sleep 1
+  done
+done
+for a in 0 1 2 3 4 5 6 7; do
+  for b in 0 1 2 3 4 5 6 7 8 9 A B C D E F; do
+    echo "Adjusting timestamp on alt glyph U+25${a}${b}"
     [ -f "25${a}${b}-alt.svg" ] && touch "25${a}${b}-alt.svg"
     sleep 1
   done
