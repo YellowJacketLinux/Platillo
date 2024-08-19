@@ -1,3 +1,1 @@
-All but the three diagonal glyphs (2571--2573) are drawn.
-
 Import into FontForge has not yet been tried.

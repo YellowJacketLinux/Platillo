@@ -26,9 +26,3 @@ in Platillo that matches the metrics of these glyphs.
 See your application documentation for instructions on how to access the
 stylistic alternative if you want the square metric variant.
 
-MISSING
--------
-
-The diagonal lines (U+2571, U+2572, U+2573), simple as they are, have not yet
-been drawn.
-
