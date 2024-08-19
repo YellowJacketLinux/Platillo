@@ -1,0 +1,24 @@
+<svg version="1.1"
+     width="1000" height="1000"
+     viewBox="0 0 1000 1000"
+     xmlns="http://www.w3.org/2000/svg">
+<path id="glyph-256F-alt" d="
+      M460,0 l80,0 l0,360
+        c 0,32 -8,63 -24,90
+        c -16,27 -38,50 -66,66
+        c -27,16 -58,24 -90,24
+      l-360,0 l0,-80 l360,0
+        c 27,0 52,-10 71,-29
+        c 19,-19 29,-44 29,-71
+      l 0,-360z
+      " fill-rule="evenodd" />
+
+<![CDATA[
+
+Copyright © 2024 Michael A. Peters for the Platillo Font.
+
+See GUST-FONT-LICENSE.txt and LPPL.txt that should have accompanied this file.
+
+]]>
+
+</svg>
