@@ -1,0 +1,3 @@
+Only 16 (25%) of the glyphs have been drawn.
+
+The glyphs have not yet been imported into FontForge.
