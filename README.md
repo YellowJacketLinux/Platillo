@@ -10,7 +10,7 @@ Platillo is a name I would like to reserve for *my* packaging of the glyphs.
 
 At this time I am not seeking contributions.
 
-Eventually the glyphs will be imported into Fontforge where they can then be
+Eventually the glyphs will be imported into FontForge where they can then be
 packaged as an OpenType font using PostScript outlines (cubic Bézier curves).
 
 The font will *probably* be released under the ‘GUST Font License’ (GFL) and
@@ -20,26 +20,26 @@ See the file `GUST-FONT-LICENSE.txt` and `LPPL.txt`.
 
 Glyphs will be in sub-directories that correspond with their Unicode block and
 the file names will start with the Unicode code-point in hex but without the
-leading `U+` that proceeds a unicode code-point. Sometimes the name of the glyph
+leading `U+` that proceeds a Unicode code-point. Sometimes the name of the glyph
 will follow in the file-name.
 
 
 Primary Purpose
 ---------------
 
-The original inspiration for this font was to provide compatibility with commom
+The original inspiration for this font was to provide compatibility with common
 historic 8-bit ‘Pi/Dingbat’ picture-glyph fonts that predate the common use of
-of Unicode character encodings (such as UTF-8).
+of Unicode character encoding (such as UTF-8).
 
 When a document contains 8-bit requests for the font ‘Symbol’, those glyphs
 requests can be transcoded to the Unicode code-points and the specified font
-changed to ‘Symbol STD’. Systems without ‘Symbol STD’ can them map ‘Symbol STD’
+changed to ‘Symbol Std’. Systems without ‘Symbol Std’ can them map ‘Symbol Std’
 to ‘Platillo’ and the document will render correctly, although full metric
 compatibility is __not__ a goal.
 
 Note that the 32-bit Symbol does contain Seven (Eight on the Macintosh version)
-glyphs that are transcoded to PUA codepoints when transcoded to Unicode. For the
-‘®’, ‘©’, and ‘™’ glyphs—the eight-bit Symbol font had both ‘Serif’ and
+glyphs that are transcoded to PUA code-points when transcoded to Unicode. For
+the ‘®’, ‘©’, and ‘™’ glyphs—the eight-bit Symbol font had both ‘Serif’ and
 ‘Sans-Serif’ variants available. Unicode has code-points (`U+00AE`, `U+00A9`,
 and `U+2122` respectively) for those glyphs but does not specify serif vs
 sans-serif. Adobe solves that problem by putting the specific variants within
@@ -77,7 +77,7 @@ have appropriate Unicode code-points (with the exception of the Microsoft logo
 in the first ‘Wingdings’ font), what ‘Platillo’ will do is put equivalent glyphs
 in the Unicode ‘Private Use Areas’ (PUA) range. Applications that want the best
 compatibility with those old 8-bit fonts using Platillo can map those 8-bit
-requests to the compatibility PUA glyphs in Patillo and change the requested
+requests to the compatibility PUA glyphs in Platillo and change the requested
 font to ‘Platillo’. Note that this may not be what the user wants, so it should
 be an application option.
 
