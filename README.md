@@ -37,6 +37,19 @@ changed to ‘Symbol STD’. Systems without ‘Symbol STD’ can them map ‘Sy
 to ‘Platillo’ and the document will render correctly, although full metric
 compatibility is __not__ a goal.
 
+Note that the 32-bit Symbol does contain Seven (Eight on the Macintosh version)
+glyphs that are transcoded to PUA codepoints when transcoded to Unicode. For the
+‘®’, ‘©’, and ‘™’ glyphs—the eight-bit Symbol font had both ‘Serif’ and
+‘Sans-Serif’ variants available. Unicode has code-points (`U+00AE`, `U+00A9`,
+and `U+2122` respectively) for those glyphs but does not specify serif vs
+sans-serif. Adobe solves that problem by putting the specific variants within
+the Unicode PUA so that references to the code-point can be transcoded to a PUA
+glyph in ‘Symbol Std’. That is what ‘Platillo’ will do. The seventh code-point
+in the PUA is for a math symbol. A Unicode equivalent exists but Adobe maps it
+to a PUA code-point in ‘Symbol Std’. That is what ‘Platillo’ will do. The eighth
+is the Apple symbol, which is trademarked. Adobe and Apple both map it to
+`U+F8FF` in the PUA. Platillo will not infringe upon Apple’s trademark.
+
 In English, the word ‘Symbol’ is phonetically identical to ‘Cymbal’ which in
 Español can be translated as ‘Platillo’, hence the name of the font.
 
@@ -98,3 +111,6 @@ specific written natural language.
 
 It is my humble opinion that *every* Unicode font should include the full set of
 7-bit ASCII characters. Those will be added close to the time of release.
+
+However Bold, Italic/Oblique, and Bold Italic/Oblique variants will not be
+created.
