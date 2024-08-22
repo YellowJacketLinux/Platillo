@@ -1,6 +1,6 @@
 SVG files for six-dot patterns are done.
 
 SVG files for eight-dot patterns beyond six-dot have begun but have a ways to
-go. As of most recent commit to this file, 48 more code-points to go.
+go. As of most recent commit to this file, 32 more code-points to go.
 
 Import into FontForge has not yet been attempted.
