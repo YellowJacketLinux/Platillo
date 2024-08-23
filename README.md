@@ -71,7 +71,7 @@ should be used when the original Adobe fonts are not available.
 Other 8-bit Fonts
 -----------------
 
-Microsoft released four commonly 8-bit dingbat fonts, ‘Webdings’ and three
+Microsoft released four commonly used 8-bit dingbat fonts, ‘Webdings’ and three
 different ‘Wingdings’. While I believe all the glyphs in those fonts now do
 have appropriate Unicode code-points (with the exception of the Microsoft logo
 in the first ‘Wingdings’ font), what ‘Platillo’ will do is put equivalent glyphs
