@@ -31,7 +31,7 @@ for a in 0 1 2 3 4 5 6 7 8 9 A B C F; do
     if [ $? -eq 0 ]; then
       pngname="`echo ${filename} |sed -e s?"\.svg$"?".png"?`"
       echo "Converting glyph U+${UNICODE} to PNG"
-      inkscape -z -w 800 -h 800 "${filename}" -e "${pngname}"
+      inkscape -z -w 544 -h 800 "${filename}" -e "${pngname}"
       convert "${pngname}" -background AliceBlue -alpha remove -alpha off \
         "../PNG/${pngname}"
       rm -f "${pngname}"
@@ -48,7 +48,7 @@ for a in 0 1 2 3 4 5 6 7 8 9 A B C F; do
     if [ $? -eq 0 ]; then
       pngname="`echo ${filename} |sed -e s?"\.svg$"?".png"?`"
       echo "Converting alt glyph U+${UNICODE} to PNG"
-      inkscape -z -w 544 -h 800 "${filename}" -e "${pngname}"
+      inkscape -z -w 800 -h 800 "${filename}" -e "${pngname}"
       convert "${pngname}" -background AliceBlue -alpha remove -alpha off \
         "../PNG/${pngname}"
       rm -f "${pngname}"
