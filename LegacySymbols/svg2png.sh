@@ -8,16 +8,16 @@
 [ ! -d PNG ] && mkdir PNG
 
 function getFileName {
-  if [ `ls *.svg |grep -v "\-alt\.svg$" |grep -c "^${1}-"` -gt 0 ]; then
-    echo "`ls *.svg |grep -v "\-alt\.svg" |grep "^${1}-" |head -1`"
+  if [ `ls *.svg |grep -v "\-alt\.svg$" |grep -c "^${1}"` -gt 0 ]; then
+    echo "`ls *.svg |grep -v "\-alt\.svg" |grep "^${1}" |head -1`"
   else
     return 1
   fi
 }
 
 function getAltFileName {
-  if [ `ls *alt.svg |grep -c "^${1}-"` -gt 0 ]; then
-    echo "`ls *alt.svg |grep "^${1}-" |head -1`"
+  if [ `ls *alt.svg |grep -c "^${1}"` -gt 0 ]; then
+    echo "`ls *alt.svg |grep "^${1}" |head -1`"
   else
     return 1
   fi
