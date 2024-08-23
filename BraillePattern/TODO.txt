@@ -1,6 +1,4 @@
-SVG files for six-dot patterns are done.
-
-SVG files for eight-dot patterns beyond six-dot have begun but have a ways to
-go. As of most recent commit to this file, 16 more code-points to go.
+All glyphs are drawn but still need to be verified against the Unicode
+reference.
 
 Import into FontForge has not yet been attempted.
