@@ -1,4 +1,3 @@
-All glyphs are drawn but still need to be verified against the Unicode
-reference.
+All glyphs are drawn and double-checked against Unicode reference.
 
 Import into FontForge has not yet been attempted.
