@@ -1,4 +1,4 @@
-144 of 212 (roughly two thirds) of code-points in the block are done.
+159 of 212 (75% done) of code-points in the block are done.
 
 Note most code-points will have two variants per code-point.
 `U+1FBA0` through `U+1FBAE` will have four per code-point.
