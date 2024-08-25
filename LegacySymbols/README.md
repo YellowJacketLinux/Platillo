@@ -80,6 +80,12 @@ For some of the other glyphs in that unfinished range, I would *like* to find th
 legacy context from which they come from just in case such context impacts how to
 best draw the glyphs.
 
+Stick figures `U+1FBC5` to `U+1FBC8` are in the ‘Amstrad CPC’ 8-bit encoding. It
+appears that the stick figure with a dress however is not in that encoding.
+
+The three glyphs that form a hand with a pointed index figure (`U+1FBC1` through
+`U+1FBC3`) is also of mystery origin I need to look in to.
+
 ### MouseText Notes
 
 MouseText mode in the Apple II computers had a filled in bitmap Apple logo at
