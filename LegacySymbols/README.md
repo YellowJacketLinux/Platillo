@@ -17,9 +17,6 @@ This is an OpenType font, and most glyphs have an alternate style that uses a
 square canvas of 1000 units in width. Some block elements just look better with
 a square canvas, so that is an option.
 
-The number forms from `U+1FBFA` to `U+1FBF9` do *not* have 1000 unit width
-alternatives. Some of the pictorial symbols also *may* not.
-
 Unfortunately Platillo is __NOT__ a monospace font and the ‘official Unicode’
 space character (U+0020) is sized to match the ASCII numbers for compatibility
 with the Adobe Symbol font. However, PUA code-point U+E020 is a space character
@@ -39,25 +36,60 @@ This block has diagonal ‘Box Drawing’ glyphs that *can* connect with the
 vertical and horizontal glyphs from the ‘Box Drawing’ block, specifically the
 thinner stroke variants.
 
-If the connection point with the glyphs from the ‘Box Drawing’ block is to be
-smooth, then due to geometry, either the stroke-width of the diagonal box
-drawing supplements in the block have to be a thinner stroke-width *or* they
-can use the same stroke width but then extend the straight-line from the
-vertical or horizontal box-drawing glyph on one side of the stroke.
+If the connection with the vertical and horizontal lines of the glyphs from the
+‘Box Drawing’ block is to be smooth, there are basically two options:
 
-The ‘normal’ variant interfaces with the thinner ‘Box Drawing’ block smoothly
-by reducing the diagonal stroke-width, and uses the 680 SVG unit glyph width.
+1) Continue the straight edge of one side of the vertical / horizontal box drawing
+   glyph that the diagonal glyph will be horizontally or vertically adjacent to,
+   allowing the stroke-width of the diagonal line to match the stroke-width from
+   the vertical / horizontal box drawing glyph. The downside is that using multiple
+   diagonal glyphs to make a long diagonal line then results in some breaks in the
+   line.
 
-The first variant does the same but with a 1000 SVG unit glyph width for square
-grids of box-drawing glyphs.
+2) Allow the stroke-width of the diagonal line to be different than the
+   stroke-width of the vertical / horizontal box drawing glyphs. This works fairly
+   well when the box-drawing grid has a square aspect ratio for cells in the grid
+   but it results in a stroke-width that changes if the box-drawing grid does not
+   have a square aspect ratio for cells in the grid.
 
-The second variant uses the same stroke-width as the thin ‘Box Drawing’ glyphs
-but at the cost of being jagged when multiple diagonal glyphs are connected
-together, using the 680 SVG unit glyph width.
+For the ‘normal’ variant of the diagonal box-drawing glyphs, I chose the first
+option so that the diagonal lines would both be straight and have an 80 SVG unit
+stroke-width. This variant has glyphs with a 680 SVG unit width.
 
-The third variant is like the second variant but with a 1000 SVG unit glyph
-width.
+For the ‘alt’ variant, the same was done but using the square aspect ratio for the
+glyph. This variant has glyphs with a 1000 SVG unit width.
+
+There is an ‘alt2’ variant that takes the second approach but with the non-square
+aspect ratio (680 SVG unit width) and thus the stroke-width of the diagonals
+changes, and there is an ‘alt3’ variant that takes the second approach but with a
+square aspect ratio (1000 SVG unit width) so that the stroke-width does not change,
+but note that it is different than the stroke-width in the horizontal and vertical
+box-drawing glyphs.
 
 
+UNFINISHED
+----------
 
+Glyphs for `U+1FBB0` through `U+1FBCA` have not yet been created. Some of these
+glyphs (`U+1FBB0` through `U+1FBBC`) are symbols from the Apple II era ‘MouseText’
+glyphs primarily used to allow GUI applications on computers from that era without
+a heavy graphics card. Some of those ‘MouseText’ glyphs have counterparts in other
+Unicode blocks, such as the arrows, that I would like the glyphs here to match.
 
+For some of the other glyphs in that unfinished range, I would *like* to find the
+legacy context from which they come from just in case such context impacts how to
+best draw the glyphs.
+
+### MouseText Notes
+
+MouseText mode in the Apple II computers had a filled in bitmap Apple logo at
+`0x40` and an outline Apple logo at `0x41`. Those glyphs have no Unicode equivalent
+as Unicode does not like to give code-points for trademarked glyphs. However, the
+PUA code-point `U+F8FF` is commonly used for the filled-in Apple logo, although
+that code-point does not always produce an Apple logo. As far as I know, there is
+not a PUA code-point commonly used for an outline Apple logo.
+
+Thus full Unicode compatibility with MouseText is not possible, although one can
+map both `0x40` and `0x41` to `U+F8FF` when transcoding an Apple II 8-bit MouseText
+encoded document to Unicode, and even if those character slots were used, they will
+*sometimes* at least be rendered as the Apple logo.

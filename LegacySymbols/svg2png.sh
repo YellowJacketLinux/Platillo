@@ -3,7 +3,7 @@
 # Converts all the SVG images to PNG with an AliceBlue background.
 #  This directory has a .gitignore to ignore the output directory.
 #
-# Script takes about seven minutes to run.
+# Script takes about eight minutes to run.
 
 [ ! -d PNG ] && mkdir PNG
 

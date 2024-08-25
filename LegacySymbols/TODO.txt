@@ -1,7 +1,3 @@
 175 of 212 (80+% done) of code-points in the block are done.
 
-Note most code-points will have two variants per code-point.
-`U+1FBA0` through `U+1FBAE` will have four per code-point.
-`U+1FBF0` through `U+1FBF9` will only have one per code-point.
-
 None of the glyphs have yet had import into FontForge attempted.

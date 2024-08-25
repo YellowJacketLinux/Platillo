@@ -5,7 +5,7 @@
 # modification date will properly sort by HEX allowing the glyphs to easily
 # be checked against official Unicode table.
 #
-# Script takes about seven minutes to run.
+# Script takes about eight minutes to run.
 
 function getFileName {
   if [ `ls *.svg |grep -v "\-alt" |grep -c "^${1}"` -gt 0 ]; then
