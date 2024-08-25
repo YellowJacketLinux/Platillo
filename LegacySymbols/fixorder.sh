@@ -67,7 +67,7 @@ for a in 0 1 2 3 4 5 6 7 8 9 A B C F; do
   done
 done
 
-for b in 0 1 2 3 4 5 6 7 8 9 A B C D E; do
+for b in 0 1 2 3 4 5 6 7 8 9 A B C D E F; do
   UNICODE="1FBA${b}"
   filename="`getAltTwoFileName ${UNICODE}`"
   if [ $? -eq 0 ]; then
@@ -79,7 +79,7 @@ for b in 0 1 2 3 4 5 6 7 8 9 A B C D E; do
   fi
 done
 
-for b in 0 1 2 3 4 5 6 7 8 9 A B C D E; do
+for b in 0 1 2 3 4 5 6 7 8 9 A B C D E F; do
   UNICODE="1FBA${b}"
   filename="`getAltThreeFileName ${UNICODE}`"
   if [ $? -eq 0 ]; then
