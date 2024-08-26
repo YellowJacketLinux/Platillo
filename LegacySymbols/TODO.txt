@@ -1,0 +1,8 @@
+185 of 212 (87+% done) of code-points in the block are done.
+
+The segmented digital numbers may need baseline adjustment.
+
+None of the glyphs have yet had import into FontForge attempted.
+
+Also, in September Unicode 16 is coming out with a supplemental block using the
+range `U+1CC00` to `U+1CEBF` adding LOTS of additional legacy glyphs.
