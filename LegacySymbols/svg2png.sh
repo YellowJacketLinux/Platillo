@@ -47,7 +47,11 @@ for a in 0 1 2 3 4 5 6 7 8 9 A B C F; do
     if [ $? -eq 0 ]; then
       pngname="`echo ${filename} |sed -e s?"\.svg$"?".png"?`"
       echo "Converting glyph U+${UNICODE} to PNG"
-      inkscape -z -w 544 -h 800 "${filename}" -e "${pngname}"
+      if [ `echo $pngname |grep -c "^1FBF"` -eq 1 ]; then
+          inkscape -z -w 400 -h 800 "${filename}" -e "${pngname}"
+      else
+          inkscape -z -w 544 -h 800 "${filename}" -e "${pngname}"
+      fi
       convert "${pngname}" -background AliceBlue -alpha remove -alpha off \
         "../PNG/${pngname}"
       rm -f "${pngname}"
