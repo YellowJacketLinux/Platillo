@@ -1,0 +1,6 @@
+Copyright © 2024 Michael A. Peters for the Platillo Font.
+
+Many if not most glyphs are based upon glyphs designed by others. See the CDATA
+section of individual glyphs for their inspiration.
+
+See GUST-FONT-LICENSE.txt and LPPL.txt that should have accompanied this file.

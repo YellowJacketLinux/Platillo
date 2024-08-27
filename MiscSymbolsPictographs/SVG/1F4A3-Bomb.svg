@@ -46,4 +46,16 @@
      m 26,104
            l 0,30 l 30,0 l 0,-30 l -30,0z"
                  fill-rule="evenodd" />
+<![CDATA[
+
+Copyright © 2024 Michael A. Peters for the Platillo Font.
+
+Heavily based upon the classic Macintosh ‘System Bomb’ originally drawn by
+Susan Kare. Also see the ‘Atari ST TOS’ critical system error bomb, which
+used a very similar ‘System Bomb’ (it is basically the same but mirrored left to
+right).
+
+See GUST-FONT-LICENSE.txt and LPPL.txt that should have accompanied this file.
+
+]]>
 </svg>
