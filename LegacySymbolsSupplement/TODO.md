@@ -1,4 +1,4 @@
-47 codepoints of 686 done (approx 7%)
+79 codepoints of 686 done (approx 11.5%)
 
 Still need to write svg2png script
 
