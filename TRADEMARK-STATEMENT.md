@@ -117,7 +117,7 @@ as protected satire. No reasonable person could confuse the dead bird glyph
 with the actual Twitter bird. See ‘*Hustler v. Falwell*, 485 U.S. 46 (1988)’.
 
 There was another religious authoritarian leader in history, his name was
-Antiochus IV Epiphanes. It is rather amazing to me that religious people in
+Antiochus IV Epiphanes. It is rather amazing to me that the Evangelicals in
 America do not understand the danger of such evil when their books of Daniel and
 1 and 2 Maccabees were authored in response to the events caused by that evil
 and vile political leader. I guess history is not a passion of study for them.
