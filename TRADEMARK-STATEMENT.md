@@ -95,11 +95,11 @@ not want to join those social media platforms because of all the vileness and
 hate speech that were specifically allowed and embraced on those sites, and
 most members of the authoritarian religious right are the embodiment of
 Galatians 5:19--21. They are literally addicted to the degradation of those they
-disagreement through insults, lies, and general vileness. So those to the left
-of the authoritarian religious right stayed away from those hate sites and even
-many who are part of the authoritarian religious right did not use them because
-there was no one they could troll and insult so they got bored. Thus those sites
-failed to attract enough users to remain financially solvent.
+are in disagreement through insults, lies, and general vileness. So those to
+the left of the authoritarian religious right stayed away from those hate sites
+and even many who are part of the authoritarian religious right did not use them
+because there was no one they could troll and insult so they got bored. Thus
+those sites failed to attract enough users to remain financially solvent.
 
 Disinformation through social media though is too powerful of a campaign tool
 for the authoritarian religious right to just give up on the ability to use it,
