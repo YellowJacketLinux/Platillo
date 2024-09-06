@@ -10,9 +10,18 @@ context of font glyphs that the visual result of the code that generates the
 glyph is legally different intellectual property than the code that generates
 the font glyph.
 
+What I call the visual result of the code is, at least in the context of a
+collection of similar glyphs, is often referred to as the ‘typeface’. For
+example, Helvetica is a typeface and all its variants are recognizable as
+Helvetica even if they are produced by different means. 
+
 Even if the visual result of the code is too generic for copyright to apply or
 produces an image with prior art too old for copyright to apply, there still is
 an applicable copyright on the computer code that generates the visual result.
+The computer code that generates the visual result, at least in the context of
+a collection of glyphs, is often referred to as the ‘font’. For example,
+‘Nimbus Sans L’ and ‘TeX Gyre heros’ can both be considered to be variations
+of the Helvetica typeface but they are different fonts.
 
 When the visual result is under applicable copyright, the owner of that
 copyright may be *different* than the owner of the computer code copyright.
@@ -86,6 +95,11 @@ Webdings and Wingdings
 
 Many of the glyphs in Webdings and Wingdings are *in my opinion* too generic for
 a copyright to apply to the visual representation, but many are not.
+
+Microsoft apparently did apply for design patents on the fonts but those only
+last for fifteen years and have now expired. Still, if picture glyphs are not
+considered to be letterforms, copyright *may* apply to the visual representation
+and not just to the code.
 
 Unlike the glyphs from Zapf Dingbats, I do not feel they are ubiquitous enough
 to claim public ownership of the visual representation. Perhaps the glyphs from
