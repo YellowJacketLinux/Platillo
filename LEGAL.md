@@ -37,6 +37,14 @@ are detailed below. Note that not only am I not a lawyer, but I did not even
 sleep at a Holiday Inn Express last night. Ask an actual lawyer if you have
 legal concerns.
 
+It is my understanding that “Typefaces and their letter forms are considered
+utilitarian objects whose public utility outweighs any private interest in
+protecting their creative elements under US law” but in my mind, it could be
+argued that that does not *necessarily* apply to picture glyphs since they are
+not really ‘letter forms’. However the concept of public utility very well may
+still apply in some cases. Again, ask an actual lawyer if you have legal
+concerns.
+
 
 Zapf Dingbats
 -------------
@@ -68,9 +76,9 @@ was copied.
 Given that financially free versions of the glyphs are *already* widely
 available and given that these glyphs are so important to digital typography and
 the Internet that code-points for them were specifically assigned in Unicode
-version 1.0, it is my *opinion* that the *visual representation* of the specific
-Zapf Dingbat glyphs in the 8-bit PostScript font ‘ITC Zapf Dingbats’ belong to
-the public.
+version 1.0 (1991), it is my *opinion* that the *visual representation* of the
+specific Zapf Dingbat glyphs in the 8-bit PostScript font ‘ITC Zapf Dingbats’ is
+important enough to public utility that they do belong to the public.
 
 
 Webdings and Wingdings
@@ -82,17 +90,8 @@ a copyright to apply to the visual representation, but many are not.
 Unlike the glyphs from Zapf Dingbats, I do not feel they are ubiquitous enough
 to claim public ownership of the visual representation. Perhaps the glyphs from
 Webdings are but I do not currently think so. They will likely have to be drawn
-to be distinctively different.
+to be distinctively different but still match the Unicode description.
 
 I have to admit, it is *very* tempting to copy the vector code from Webdings
-position `0x23` (`U+1F572`) just to be ironic...
-
-
-
-
-
-
-
-
-
+position `0x23` (`U+1F572`) just to be a smartass...
 
