@@ -5,15 +5,37 @@ Copyright © 2024 Michael A. Peters for the Platillo Font.
 
 See GUST-FONT-LICENSE.txt and LPPL.txt that should have accompanied this file.
 
+I am no lawyer, not even a law school dropout, but I believe that within the
+context of font glyphs that the visual result of the code that generates the
+glyph is legally different intellectual property than the code that generates
+the font glyph.
+
+Even if the visual result of the code is too generic for copyright to apply or
+produces an image with prior art too old for copyright to apply, there still is
+an applicable copyright on the computer code that generates the visual result.
+
+When the visual result is under applicable copyright, the owner of that
+copyright may be *different* than the owner of the computer code copyright.
+
 In the context of the ‘Platillo’ font project, ‘Copyright’ specifically refers
 to the code used to generate the outline vector glyphs, such as the SVG code and
 the FontForge files.
 
-No claim of copyright is made on the visual result of the code.
+No claim of copyright is made *by me* on the visual result of the code. I do
+claim copyright on the code, which I license to anyone under the previously
+mentioned `GUST-FONT-LICENSE.txt` and `LPPL.txt` files that should be in this
+directory.
 
 The majority of the glyphs in this font were coded according to the Unicode
 specification and are far too generic in nature for there to be an applicable
 copyright on the visual result of the code.
+
+That being said, there may be some glyphs where there is an applicable
+copyright on the visual result of my code where that applicable copyright
+belongs to someone else. The cases where I believe this is *possibly* an issue
+are detailed below. Note that not only am I not a lawyer, but I did not even
+sleep at a Holiday Inn Express last night. Ask an actual lawyer if you have
+legal concerns.
 
 
 Zapf Dingbats
