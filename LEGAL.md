@@ -12,8 +12,8 @@ Copyright, Design Patents, Typefaces, Fonts, and Font Families
 I am no lawyer, not even a law school dropout, but this is my understanding of
 intellectual property laws with respect to typography in the United States.
 
-A ‘typeface’ can be seen as the artistic design concept of glyphs designed that
-is a visually recognizable design concept. This includes variations in the
+A ‘typeface’ can be seen as the artistic design concept of glyphs designs that
+are a visually recognizable design concept. This includes variations in the
 design concept by different type designers as long as they are easy to visually
 recognize as variations of each other. The digital font families ‘Helvetica’,
 ‘Nimbus Sans L’, and ‘TeX Gyre Heros’ are all visually recognizable as the same
@@ -26,9 +26,9 @@ typeface. My understanding is that design patents last about 15 years.
 
 A ‘font family’ is a specific subset of a typeface that often but not always
 includes stylistic variations intended to be used together for typographical
-purposes, such the common ‘Upright Roman’, ‘Bold’, ‘Italic’, and ‘Bold-Italic’
-stylistic variations that are commonly used even in basic Latin-letter based
-typography.
+purposes, such as the common ‘Upright Roman’, ‘Bold’, ‘Italic’, and
+‘Bold-Italic’ stylistic variations that are commonly used even in basic
+Latin-letter based typography.
 
 A ‘font’ is a specific stylistic variation within the font family, usually but
 not always with all of its glyphs contained in a single-file. Historically when
@@ -66,8 +66,8 @@ Everything I have read about *why* copyright does not apply to a typeface is
 given in the context of the utilitarian nature of letters.
 
 If I draw a piece of vector art on a 1000 by 1000 canvas using SVG or PostScript
-or any other vector art specification, that vector art is protected by copyright
-in the United States *even if I do not apply for such protection*.
+or any other vector graphic specification, that vector art is protected by
+copyright in the United States *even if I do not apply for such protection*.
 
 It seems very unlikely to me that such protection vanishes just because I put
 the code for the art into a font file.
@@ -132,7 +132,7 @@ Zapf Dingbats
 
 __NOTE:__ I have not yet finished re-drawing these glyphs.
 
-Some glyphs in this font are heavily based upon the dingbats originally drawn by
+Some glyphs in Platillo are heavily based upon the dingbats originally drawn by
 Hermann Zapf in 1977 from which a subset were included in the 8-bit PostScript
 font ‘ITC Zapf Dingbats’. I believe the font was created by Adobe even though
 the typeface itself is ITC and predates Adobe PostScript fonts.
@@ -150,14 +150,15 @@ In TeXLive 2024 (and on CTAN) it is licensed under the GPLv2. See the file
 `COPYING` at https://ctan.org/tex-archive/fonts/urw/base35
 
 To draw my glyphs based on the Zapf Dingbats glyphs, I specifically did not look
-at the code of either the Adobe version of the font or the URW version of the
-font. I created the TeX file `ZapfDingbats.tex` using the LaTeX CTAN `pifont`
-package to create a visual representation of the glyphs for me to refer to when
-writing my own SVG code to generate similar (although visually distinguishable
-in many cases) glyphs. Not a single line of code (glyph generating or otherwise)
-was copied. Please note that that at least through the LaTeX `pifont` package,
-the glyphs at `0x80` through `0x8D` are not available. It appears they are not
-even in the URW version of the font, at least not as packaged for CTAN.
+at the code of either the Adobe version of the typeface or the URW version of
+the typeface. I created the TeX file `ZapfDingbats.tex` using the LaTeX CTAN
+`pifont` package to create a visual representation of the glyphs for me to refer
+to when writing my own SVG code to generate similar (although visually
+distinguishable in many cases) glyphs. Not a single line of code (glyph
+generating or otherwise) was copied. Please note that that at least through the
+LaTeX `pifont` package, the glyphs at `0x80` through `0x8D` are not available.
+It appears they are not even in the URW version of the font, at least not as
+packaged for CTAN.
 
 Given that financially free versions of the glyphs are *already* widely
 available and given that these glyphs are so important to digital typography and
@@ -182,7 +183,7 @@ The 8-bit Webdings glyph `0x23` (`U+1F572`) is an example of a glyph that I
 consider to have utilitarian purpose as a well-understood pictograph and does
 not have copyright protection on the visual design itself.
 
-The 8-bit WebDings glyph `0x22` (`U+1F578`) is an example of a glyph that I
+The 8-bit Webdings glyph `0x22` (`U+1F578`) is an example of a glyph that I
 __do not__ consider to have utilitarian purpose as a well-understood pictograph
 *however* I do feel its design is too generic for a copyright to apply.
 
