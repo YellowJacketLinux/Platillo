@@ -13,17 +13,20 @@ shown in the ITC magazine ‘U&lc Volume Five, Number Two, June 1978’ on pages
 
 I wonder if the same will happen with Emoji glyphs...
 
-With the advent of Adobe PostScript font, Adobe created a PostScript Type 1
+With the advent of Adobe PostScript fonts, Adobe created a PostScript Type 1
 font called ‘ITC Zapf Dingbats’ that contained a subset of the Zapf Dingbats
 collection using dingbats from all three series, probably based at least
 partially on the popularity of the glyphs in typesetting.
+
+I have attempted to map the glyphs in the 8-bit font to both the original
+collection glyphs and the Unicode code-points in the markdown document
+`ZapfDingbatsGlyphEquivalents.md` in this directory.
 
 ‘ITC Zapf Dingbats’ was *not* included in the collection of 13 fonts known as
 ‘PostScript Level 1’ that was guaranteed to be made available on PostScript
 Level 1 printers, but it was included in the collection of 14 fonts known as
 the ‘PDF Standard 14 fonts’ guaranteed to be available to PDF readers and is
 just the ‘PostScript Level 1’ collection plus ‘ITC Zapf Dingbats’.
-
 
 The 8-bit font ‘ITC Zapf Dingbats’ is included in the collection of 35 fonts
 known as ‘PostScript Level 2’ that was guaranteed to be made available on
@@ -86,6 +89,6 @@ font is available as many systems do have it installed.
 
 Systems without that font can map requests to that font to Platillo if the user
 wants Platillo to provide equivalent Unicode code-points. Even if of a different
-typeface, most operating systems do have full coverage of all the Unicode
-code-points in their default install.
+typeface, most operating systems do have full coverage of all the Zapf Dingbats
+Unicode code-points in their default install.
 
